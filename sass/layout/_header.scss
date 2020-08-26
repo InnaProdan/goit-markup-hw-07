@@ -1,0 +1,121 @@
+/* HEADER */
+.header {
+  background-color: $primary-bcg-color;
+  border-bottom: 1px solid #ececec;
+}
+
+.header-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.navigation-list {
+  display: flex;
+
+  & :hover,
+  & :focus {
+    color: $accent-color;
+
+    transition-property: color;
+    transition-duration: 250ms;
+    transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+  }
+}
+/* .navigation-list li {
+  outline: 2px solid springgreen;
+} */
+
+.navigation-list-item:not(:last-child) {
+  margin-right: 50px;
+}
+/* Селектор соседа */
+/* .navigation-list li + li {
+margin-left: 50px;
+} */
+
+.navigation-list-link {
+  display: block;
+  padding-top: 32px;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+  color: $title-text-color2;
+}
+
+.navigation-studio {
+  color: $accent-color;
+  &::after {
+    display: block;
+    content: "";
+    width: 47px;
+    height: 4px;
+
+    background: $accent-color;
+    border-radius: 2px;
+    margin-top: 32px;
+  }
+}
+
+.navigation-portfolio {
+  color: $accent-color;
+  &::after {
+    display: block;
+    content: "";
+    width: 77px;
+    height: 4px;
+
+    background: $accent-color;
+    border-radius: 2px;
+    margin-top: 32px;
+  }
+}
+
+.contact-with-us-list {
+  display: flex;
+  margin-left: auto;
+
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.17;
+  letter-spacing: 0.02em;
+  color: $primary-text-color;
+
+  & li + li {
+    margin-left: 30px;
+  }
+}
+
+.contact-with-us-mail,
+.contact-with-us-phone {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding-top: 32px;
+  padding-bottom: 32px;
+  color: $primary-text-color;
+
+  transition-property: color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}
+
+.icon-envelope-2 {
+  width: 16px;
+  height: 11px;
+  margin-right: 10px;
+  fill: currentColor;
+}
+
+.icon-smartphone-2 {
+  width: 10px;
+  height: 15px;
+  margin-right: 10px;
+  fill: currentColor;
+}

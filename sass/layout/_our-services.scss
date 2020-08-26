@@ -1,0 +1,45 @@
+/* Секция: Веб-студии Чем мы занимаемся */
+.services {
+  /* outline: 2px solid springgreen; */
+  padding-bottom: 94px;
+}
+.title {
+  margin-top: 0;
+  margin-bottom: 50px;
+
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  color: $title-text-color2;
+}
+.services-list {
+  display: flex;
+  justify-content: center;
+
+  &-item:not(:last-child) {
+    margin-right: 30px;
+  }
+
+  &-item {
+    position: relative;
+  }
+  &-item-description {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    display: flex;
+    width: 370px;
+    height: 70px;
+    align-items: center;
+    justify-content: center;
+
+    font-weight: bold;
+    font-size: 14px;
+    line-height: 1.14;
+    text-transform: uppercase;
+    color: $title-text-color1;
+    background: rgba(47, 48, 58, 0.8);
+  }
+}
