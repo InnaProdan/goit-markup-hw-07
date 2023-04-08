@@ -1,12 +1,14 @@
 /* Секция: Преимущества Веб-студии */
 .advantages-websdudio {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 120px;
+  padding-bottom: 120px;
 }
 .advantages-description {
-  font-weight: normal;
-  font-size: 14px;
-  line-height: 1.71;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
 }
 
 .advantages-list {
@@ -14,31 +16,31 @@
   justify-content: center;
 
   &-item {
-    width: 270px;
+    width: 264px;
   }
   &-title {
-    margin-bottom: 10px;
-    font-weight: bold;
-    font-size: 14px;
-    line-height: 1.14;
-    text-transform: uppercase;
+    margin-bottom: 8px;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 1.2;
+    // text-transform: uppercase;
     color: $title-text-color2;
   }
 
   &-item:not(:last-child) {
-    margin-right: 30px;
+    margin-right: 24px;
   }
 }
 .icon-antenna,
 .icon-clock,
 .icon-diagram,
 .icon-astronaut {
-  width: 270px;
-  height: 120px;
+  width: 264px;
+  height: 112px;
   padding: 25px 100px;
   border-radius: 4px;
   background-color: $secondary-bcg-color;
   background-position: center;
   background-repeat: no-repeat;
-  margin-bottom: 30px;
+  margin-bottom: 8px;
 }

@@ -6,28 +6,37 @@
   display: flex;
   align-items: baseline;
 
-  padding-top: 60px;
-  padding-bottom: 60px;
+  padding-top: 100px;
+  padding-bottom: 100px;
 }
-.footer-logo-address {
-  margin-right: 70px;
+.footer-logo-description {
+  margin-right: 120px;
 }
 .join-social-links {
-  margin-right: 94px;
+  margin-right: 80px;
 }
-.footer-address-items {
+.footer-company-description {
+  margin-top: 17.5px;
   font-style: normal;
-  font-size: 14px;
-  line-height: 1.71;
+    font-weight: 400;
+    font-size: 16px;
+  line-height: 1.5;
+  color: #F4F4FD;
+  
+}
+// .footer-address-items {
+//   font-style: normal;
+//   font-size: 14px;
+//   line-height: 1.71;
 
-  & li:not(:last-child) {
-    margin-bottom: 9px;
-  }
-}
-.footer-address {
-  margin-top: 20px;
-  color: $title-text-color1;
-}
+//   & li:not(:last-child) {
+//     margin-bottom: 9px;
+//   }
+// }
+// .footer-address {
+//   margin-top: 20px;
+//   color: $title-text-color1;
+// }
 .footer-studio-mail,
 .footer-studio-phone {
   color: rgba(255, 255, 255, 0.6);
@@ -37,16 +46,16 @@
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
   &:hover,
-  &:hover {
+  &:focus {
     color: $accent-color;
   }
 }
 .subscription,
 .join {
-  font-weight: 900;
-  font-size: 14px;
-  line-height: 1.14;
-  text-transform: uppercase;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  // text-transform: uppercase;
   color: $title-text-color1;
   margin-bottom: 20px;
 }
@@ -60,18 +69,19 @@
 }
 .join-social-links-items {
   display: flex;
-  background-color: rgba(255, 255, 255, 0.1);
+  background-color: $accent-color;
   border-radius: 22px;
-  width: 44px;
-  height: 44px;
-  fill: #ffffff;
+  width: 40px;
+  height: 40px;
+  fill: $main-icon-color;
 
   transition-property: background-color;
   transition-duration: 250ms;
   transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 
   &:hover {
-    background-color: $accent-color;
+    background-color: $main-icon-color;
+    fill: $accent-color;
   }
 }
 
@@ -79,9 +89,14 @@
 .icon-facebook-white,
 .icon-twitter-white,
 .icon-instagram-white {
-  padding: 12px;
-  fill: #ffffff;
+  padding: 8px;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1); 
+  
+
 }
 .subscription-position {
   display: flex;
 }
+

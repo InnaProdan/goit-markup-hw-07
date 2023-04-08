@@ -1,7 +1,7 @@
 /* Секция: Постоянные клиенты */
 .our-clients {
-  padding-top: 94px;
-  padding-bottom: 94px;
+  padding-top: 120px;
+  padding-bottom: 120px;
   /* outline: 1px solid springgreen; */
 }
 .our-clients-list {
@@ -12,10 +12,10 @@
 
 .our-clients-logo {
   display: flex;
-  width: 170px;
-  height: 90px;
+  width: 168px;
+  height: 88px;
   border-radius: 4px;
-  border: 1px solid $main-icon-color;
+  border: 1px solid $secondary-icon-color;
 
   &:hover,
   &:focus {
@@ -23,7 +23,7 @@
   }
 }
 .client-logo-svg {
-  fill: $main-icon-color;
+  fill: $secondary-icon-color;
 
   transition-property: fill;
   transition-duration: 250ms;
@@ -54,5 +54,5 @@
   padding: 10px 41px;
 }
 .our-clients-list li + li {
-  margin-left: 30px;
+  margin-left: 24px;
 }

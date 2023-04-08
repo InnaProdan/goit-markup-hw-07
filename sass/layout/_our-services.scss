@@ -1,11 +1,11 @@
 /* Секция: Веб-студии Чем мы занимаемся */
 .services {
-  /* outline: 2px solid springgreen; */
-  padding-bottom: 94px;
+  // outline: 2px solid springgreen;
+  padding-bottom: 120px;
 }
 .title {
   margin-top: 0;
-  margin-bottom: 50px;
+  margin-bottom: 72px;
 
   font-weight: bold;
   font-size: 36px;
@@ -18,7 +18,7 @@
   justify-content: center;
 
   &-item:not(:last-child) {
-    margin-right: 30px;
+    margin-right: 24px;
   }
 
   &-item {
